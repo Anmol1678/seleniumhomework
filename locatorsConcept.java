@@ -8,7 +8,7 @@ public class locatorsConcept {
 
     public static void main (String[] args) throws InterruptedException {
 
-        System.out.println("Webdriver.chrome.driver,C:\\Users\\Surface Laptop\\IdeaProjects\\selenium.new\\chromedriver.exe");
+        //System.out.println("Webdriver.chrome.driver,C:\\Users\\Surface Laptop\\IdeaProjects\\selenium.new\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();

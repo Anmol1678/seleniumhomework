@@ -6,7 +6,7 @@ public class NavigationConcept {
 
     public static void main (String[] args) throws InterruptedException {
 
-        System.out.println("Webdriver.chrome.driver,C:\\Users\\Surface Laptop\\IdeaProjects\\selenium.new\\chromedriver.exe");
+        System.setProperty("Webdriver.chrome.driver","C:\\Users\\Surface Laptop\\IdeaProjects\\selenium.new\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
         Thread.sleep(4000);
